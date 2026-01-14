@@ -15,23 +15,26 @@ body {
 }
 
 section {
-    border: 2px solid white ;
+    border: 2px solid white;
     margin: 20px 0;
     padding: 20px;
 }
-section h1{
+
+section h1 {
     margin: 10px 0;
 }
-.scroll-indicator{
+
+.scroll-indicator {
     height: 5px;
     position: fixed;
     border-radius: 3px;
     top: 10px;
     left: 2em;
-     width: calc(100% - 6em);
+    width: calc(100% - 6em);
 }
-.progress{
-    background: linear-gradient(30deg, #217dfd, #ff21d6);
+
+.progress {
+    background: linear-gradient(180deg, #003bff 0.000%, #004bff 8.333%, #125cff 16.667%, #2b6cff 25.000%, #447bff 33.333%, #5d8bff 41.667%, #7499ff 50.000%, #8aa7ff 58.333%, #9db3ff 66.667%, #adbfff 75.000%, #b9c9ff 83.333%, #c2d2ff 91.667%, #c6d9ff 100.000%);
     width: 0;
     height: 100%;
     transition: width 0.1s;
