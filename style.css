@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+.content {
+    padding: 3rem;
+}
+
+section {
+    border: 2px solid white;
+    margin: 20px 0;
+    padding: 20px;
+}
+section h1{
+    margin: 10px 0;
+}
+.scroll-indicator{
+    height: 5px;
+    position: fixed;
+    border-radius: 3px;
+    top: 10px;
+    left: 2em;
+     width: calc(100% - 6em);
+}
+.progress{
+    background: linear-gradient(30deg, #21d4fd, #b721ff);
+    width: 0;
+    height: 100%;
+    transition: width 0.1s;
+    border-radius: 3px;
+}
