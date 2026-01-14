@@ -34,7 +34,7 @@ section h1 {
 }
 
 .progress {
-    background: linear-gradient(180deg, #003bff 0.000%, #004bff 8.333%, #125cff 16.667%, #2b6cff 25.000%, #447bff 33.333%, #5d8bff 41.667%, #7499ff 50.000%, #8aa7ff 58.333%, #9db3ff 66.667%, #adbfff 75.000%, #b9c9ff 83.333%, #c2d2ff 91.667%, #c6d9ff 100.000%);
+    background: linear-gradient(15deg, #0ee6dd 0.000%, #43dddf 11.111%, #54d0e2 22.222%, #35c2e4 33.333%, #00b2e7 44.444%, #00a0e9 55.556%, #008eec 66.667%, #007bee 77.778%, #2669f0 88.889%, #5057f3 100.000%);
     width: 0;
     height: 100%;
     transition: width 0.1s;
